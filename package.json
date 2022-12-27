@@ -6,7 +6,7 @@
   "homepage": "https://orogoro.github.io/keyboard/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack build src/*.html --public-url /keyboard/",
+    "build": "npx webpack --mode production",
     "start": " npx webpack-dev-server --mode development"
   },
   "author": "Orogoro",
