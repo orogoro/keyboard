@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #4b4b4b;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.display textarea {
+  font-size: 30px;
+  height: 150px;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #343434;
+  border: none;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.keys {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  margin: 8px;
+  padding: 5px;
+
+  font-size: 30px;
+  background-color: #403f3f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+  transition: 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+
+  &:active {
+    color: #8c5050;
+    box-shadow: none;
+  }
+}
+
+.keys .space {
+  width: 70%;
+}
+
+.btn-delete {
+  background-color: #403f3f;
+  color: #fff;
+  width: 70px;
+  height: 45px;
+  margin: 8px;
+  padding: 5px;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+  transition: 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+
+  &:active {
+    color: #8c5050;
+    box-shadow: none;
+  }
+}
